@@ -59,7 +59,8 @@ Develop reusable SQL Server objects such as scalar functions and stored procedur
 | `05_customer_details_procedure.sql` | UDF and stored procedure for customer KPIs |
 
 ## 📈 Project Walkthrough
-## 1️⃣ Top Customers by Average Annual Profit
+
+### 1️⃣ Top Customers by Average Annual Profit
 ### Business Question
 Who are the most profitable customers based on average annual profit generated from completed purchases?
 
@@ -75,7 +76,7 @@ Who are the most profitable customers based on average annual profit generated f
 
 ![Customer Lifetime Profit](images/01_customer_lifetime_profit.png)
 
-## 2️⃣ Sales Pivot Analysis
+### 2️⃣ Sales Pivot Analysis
 ### Business Question
 How are sales distributed across product categories and sub-categories?
 
@@ -91,7 +92,7 @@ How are sales distributed across product categories and sub-categories?
 
 ![Sales Pivot Analysis](images/02_sales_pivot_analysis.png)
 
-## 3️⃣ Top Customers by Category
+### 3️⃣ Top Customers by Category
 ### Business Question
 Which customers place the highest number of completed orders within each category?
 
@@ -106,7 +107,7 @@ Which customers place the highest number of completed orders within each categor
 
 ![Top Customers by Category](images/03_top_customers_by_category.png)
 
-## 4️⃣ Top Products by Category
+### 4️⃣ Top Products by Category
 ### Business Question
 Which products generate the highest sales within each category?
 
@@ -121,7 +122,7 @@ Which products generate the highest sales within each category?
 
 ![Top Products by Category](images/04_top_products_by_category.png)
 
-## 5️⃣ Customer Details Stored Procedure
+### 5️⃣ Customer Details Stored Procedure
 ## Business Question
 How can customer-level KPIs be retrieved efficiently using reusable database objects?
 
