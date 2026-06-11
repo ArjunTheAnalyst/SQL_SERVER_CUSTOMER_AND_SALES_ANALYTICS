@@ -73,4 +73,4 @@ Who are the most profitable customers based on average annual profit generated f
 
 📷 Output
 
-![Customer Lifetime Profit](SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/images/01_customer_lifetime_profit.png)
+![Customer Lifetime Profit](../SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/images/01_customer_lifetime_profit.png)
