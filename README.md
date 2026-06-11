@@ -69,8 +69,24 @@ Who are the most profitable customers based on average annual profit generated f
  * Date Functions
  * Customer Lifetime Value Analysis
 
-📄 Query: [01_customer_lifetime_profit.sql](https://github.com/ArjunTheAnalyst/SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/blob/main/01_customer_lifetime_profit.sql)
+📄 Query:[01_customer_lifetime_profit.sql](https://github.com/ArjunTheAnalyst/SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/blob/main/01_customer_lifetime_profit.sql)
 
 📷 Output
 
 ![Customer Lifetime Profit](images/01_customer_lifetime_profit.png)
+
+## 2️⃣ Sales Pivot Analysis
+### Business Question
+How are sales distributed across product categories and sub-categories?
+
+### Concepts Used
+ * Conditional Aggregation
+ * Dynamic SQL
+ * PIVOT
+ * STRING_AGG
+
+📄 Query:[02_sales_pivot_analysis.sql](https://github.com/ArjunTheAnalyst/SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/blob/main/02_sales_pivot_analysis.sql)
+
+📷 Output
+
+![Sales Pivot Analysis](images/sales_pivot_analysis.png)
