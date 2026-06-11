@@ -57,3 +57,19 @@ Develop reusable SQL Server objects such as scalar functions and stored procedur
 | `03_top_customers_by_category.sql`  | Highest-order customers by category        |
 | `04_top_products_by_category.sql`   | Top-performing products by category        |
 | `05_customer_details_procedure.sql` | UDF and stored procedure for customer KPIs |
+
+## 📈 Project Walkthrough
+## 1️⃣ Top Customers by Average Annual Profit
+### Business Question
+Who are the most profitable customers based on average annual profit generated from completed purchases?
+
+### Concepts Used
+ * CTEs
+ * Aggregations
+ * Date Functions
+ * Customer Lifetime Value Analysis
+
+📄 Query: [01_customer_lifetime_profit.sql](https://github.com/ArjunTheAnalyst/SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/blob/main/01_customer_lifetime_profit.sql)
+
+📷 Output
+![Customer Lifetime Profit](images/customer_lifetime_profit.png)
