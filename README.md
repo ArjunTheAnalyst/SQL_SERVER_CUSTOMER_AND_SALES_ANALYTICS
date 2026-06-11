@@ -90,3 +90,70 @@ How are sales distributed across product categories and sub-categories?
 📷 Output
 
 ![Sales Pivot Analysis](images/02_sales_pivot_analysis.png)
+
+## 3️⃣ Top Customers by Category
+### Business Question
+Which customers place the highest number of completed orders within each category?
+
+### Concepts Used
+ * Window Functions
+ * DENSE_RANK()
+ * Customer Segmentation
+
+📄 Query: [03_top_customers_by_category.sql](https://github.com/ArjunTheAnalyst/SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/blob/main/03_top_customers_by_category.sql)
+
+📷 Output
+
+![Top Customers by Category](images/03_top_customers_by_category.png)
+
+## 4️⃣ Top Products by Category
+### Business Question
+Which products generate the highest sales within each category?
+
+### Concepts Used
+ * Window Functions
+ * Ranking Functions
+ * Product Analytics
+
+📄 Query: [04_top_products_by_category.sql](https://github.com/ArjunTheAnalyst/SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/blob/main/04_top_products_by_category.sql)
+
+📷 Output
+
+![Top Products by Category](images/04_top_products_by_category.png)
+
+## 5️⃣ Customer Details Stored Procedure
+## Business Question
+How can customer-level KPIs be retrieved efficiently using reusable database objects?
+
+### Metrics Returned
+ * Most Recent Order Date
+ * Total Sales
+ * Total Orders
+ * Average Sales Per Order
+ * Days Since Last Order
+
+### Concepts Used
+ * Scalar Functions
+ * Stored Procedures
+ * Parameterized Queries
+
+📄 Query: [05_customer_details_procedure.sql](https://github.com/ArjunTheAnalyst/SQL_SERVER_CUSTOMER_AND_SALES_ANALYTICS/blob/main/05_customer_details_procedure.sql)
+
+📷 Output
+
+![Customer Details Procedure](images/05_customer_details_procedure.png)
+
+## 📋 Business Assumptions
+Returned orders are excluded from most analyses to focus on completed purchases that contributed to realized revenue and profit.
+
+This approach mirrors common e-commerce reporting practices where customer value and product performance are evaluated using fulfilled transactions rather than gross order volume.
+
+## 🚀 Key Takeaways
+This project demonstrates the ability to:
+ * Translate business requirements into SQL solutions
+ * Build reusable database objects
+ * Analyze customer profitability
+ * Perform customer segmentation
+ * Evaluate product performance
+ * Create management-ready reports
+ * Implement advanced SQL techniques such as dynamic pivoting and window functions
